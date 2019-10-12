@@ -1,4 +1,9 @@
+import time
 
+start = time.time()
 
-ss = 5*5 *16 +16
-print(ss)
+time.sleep(2)
+
+end = time.time()
+
+print(" 本次训练花费时间： %.2f s" %(end-start))
